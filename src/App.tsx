@@ -15,13 +15,16 @@ function App() {
         <Header />
         <Navbar />
       </Stack>
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/intro" element={<IntroPage />} />
-        <Route path="/product" />
-        <Route path="/service" element={<ServicePage />} />
-        <Route path="/contact" element={<ContactPage />} />
-      </Routes>
+      <Stack width={"80%"}>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/intro" element={<IntroPage />} />
+          <Route path="/product" />
+          <Route path="/service" element={<ServicePage />} />
+          <Route path="/contact" element={<ContactPage />} />
+        </Routes>
+      </Stack>
+
       <Footer />
     </Stack>
   );

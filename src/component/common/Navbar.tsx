@@ -1,4 +1,4 @@
-import { Box, Stack } from "@mui/material";
+import { Stack } from "@mui/material";
 import { HomepageMenu } from "./HomepageMenu";
 
 const navbarItems = [
@@ -33,7 +33,6 @@ export const Navbar = () => {
           <HomepageMenu item={item} key={index} />
         ))}
       </Stack>
-      <Box height={"75vh"} />
     </>
   );
 };
